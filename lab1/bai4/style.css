@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #ddd;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card.active {
+    border-color: red;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  
