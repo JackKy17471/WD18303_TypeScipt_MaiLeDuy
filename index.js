@@ -95,7 +95,7 @@ const combineStringNumber = Combiner.combine('30', '36', 'as-number');
 console.log(combineStringNumber);
 const combineText = Combiner.combine('typescipt', 'javascipt', 'as-text');
 console.log(combineText);
-class Person1 {
+class Person2 {
     constructor(activeHobbies) {
         this.activeHobbies = activeHobbies;
         this.hobbies = [];
@@ -112,12 +112,12 @@ class Person1 {
 }
 const hobbies = [{ name: "Sports" }, { name: "Cooking" }];
 const activeHobbies = [{ name: "Hiking" }];
-const person2 = new Person1(activeHobbies);
-person2.addHobby(hobbies[0]);
-person2.addHobby(hobbies[1]);
-person2.addHobby(...hobbies);
-console.log(person2.getActiveHobbies());
-console.log(person2.getAllHobbies());
+const person3 = new Person2(activeHobbies);
+person3.addHobby(hobbies[0]);
+person3.addHobby(hobbies[1]);
+person3.addHobby(...hobbies);
+console.log(person3.getActiveHobbies());
+console.log(person3.getAllHobbies());
 //1
 class ArraySummer {
     static sumArray(array) {
